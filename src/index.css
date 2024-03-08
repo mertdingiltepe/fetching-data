@@ -1,0 +1,49 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+.header{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #555;
+width: 100%;
+color: #fff;
+height: 60px;
+}
+
+.user-list ul{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.user{
+  display: flex;
+  width: 500px;
+  margin:20px 15px;
+  background-color: bisque;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border:1px solid #555;
+  box-shadow: 0 0 5px 2px rgb(70, 110, 110), 0 0 10px 3px rgb(119, 190, 190), 0 0 15px 4px rgb(9, 240, 240), 0 0 20px 5px rgb(215, 238, 238);
+}
+
+.user img{
+  border: 1px solid rgb(29, 29, 65);
+  border-radius: 50%;
+  width: 100px; 
+ 
+ 
+}
+.user-info{
+  margin: 25px;
+  
+}
